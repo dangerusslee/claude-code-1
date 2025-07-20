@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  claude-code-persistent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        TZ: ${TZ:-America/Los_Angeles}
+        NODE_VERSION: "23"
+        PYTHON_VERSION: "3.12"
+        AWS_CLI_VERSION: "2.15.0"
+        CLAUDE_CODE_VERSION: "latest"
+    container_name: claude-code-persistent
+    user: node
+    working_dir: /projects
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - claude-code-bashhistory:/commandhistory
+      - claude-code-config:/home/node/.claude
+      - ${HOME}/Projects:/projects:cached
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - NODE_OPTIONS=--max-old-space-size=4096
+      - CLAUDE_CONFIG_DIR=/home/node/.claude
+      - POWERLEVEL9K_DISABLE_GITSTATUS=true
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
+    command: sleep infinity
+    stdin_open: true
+    tty: true
+
+volumes:
+  claude-code-bashhistory:
+  claude-code-config:

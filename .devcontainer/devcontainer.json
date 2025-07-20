@@ -1,19 +1,7 @@
 {
-  "name": "Claude Code Sandbox",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "TZ": "${localEnv:TZ:America/Los_Angeles}",
-      "NODE_VERSION": "23",
-      "PYTHON_VERSION": "3.12",
-      "AWS_CLI_VERSION": "2.15.0",
-      "CLAUDE_CODE_VERSION": "latest"
-    }
-  },
-  "runArgs": [
-    "--cap-add=NET_ADMIN",
-    "--cap-add=NET_RAW"
-  ],
+  "name": "Claude Code Persistent",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "claude-code-persistent",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -40,18 +28,6 @@
     }
   },
   "remoteUser": "node",
-  "mounts": [
-    "source=claude-code-bashhistory-${devcontainerId},target=/commandhistory,type=volume",
-    "source=claude-code-config-${devcontainerId},target=/home/node/.claude,type=volume"
-  ],
-  "remoteEnv": {
-    "NODE_OPTIONS": "--max-old-space-size=4096",
-    "CLAUDE_CONFIG_DIR": "/home/node/.claude",
-    "POWERLEVEL9K_DISABLE_GITSTATUS": "true",
-    "LC_ALL": "C.UTF-8",
-    "LANG": "C.UTF-8"
-  },
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/projects",
   "postCreateCommand": "sudo /usr/local/bin/init-firewall.sh"
 }

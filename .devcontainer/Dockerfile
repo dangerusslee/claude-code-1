@@ -29,6 +29,8 @@ RUN apt update && apt install -y less \
   curl \
   wget \
   build-essential \
+  ca-certificates \
+  lsb-release \
   # Python dependencies
   python3=${PYTHON_VERSION}* \
   python3-pip \
@@ -36,6 +38,17 @@ RUN apt update && apt install -y less \
   # Clean package manager cache
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
+
+# Install Docker CE
+RUN curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null && \
+  apt update && \
+  apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin && \
+  # Add node user to docker group
+  usermod -aG docker node && \
+  # Clean package manager cache
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/*
 
 # Ensure default node user has access to /usr/local/share
 RUN mkdir -p /usr/local/share/npm-global && \
