@@ -31,26 +31,18 @@ else
     CUSTOM_DOMAINS=""
 fi
 
-# Flush existing rules and delete existing ipsets
-iptables -F
-iptables -X
-iptables -t nat -F
-iptables -t nat -X
-iptables -t mangle -F
-iptables -t mangle -X
+# Only flush OUTPUT chain rules to avoid breaking Docker's networking
+iptables -F OUTPUT
+# Keep Docker's INPUT and FORWARD chains intact
 ipset destroy allowed-domains 2>/dev/null || true
 
-# First allow DNS and localhost before any restrictions
-# Allow outbound DNS
+# Allow essential traffic before any restrictions
+# Allow DNS to any destination (including Docker's 127.0.0.11)
 iptables -A OUTPUT -p udp --dport 53 -j ACCEPT
-# Allow inbound DNS responses
-iptables -A INPUT -p udp --sport 53 -j ACCEPT
-# Allow outbound SSH
+iptables -A OUTPUT -p tcp --dport 53 -j ACCEPT
+# Allow SSH
 iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT
-# Allow inbound SSH responses
-iptables -A INPUT -p tcp --sport 22 -m state --state ESTABLISHED -j ACCEPT
 # Allow localhost
-iptables -A INPUT -i lo -j ACCEPT
 iptables -A OUTPUT -o lo -j ACCEPT
 
 # Create ipset with CIDR support
@@ -140,20 +132,16 @@ fi
 HOST_NETWORK=$(echo "$HOST_IP" | sed "s/\.[0-9]*$/.0\/24/")
 echo "Host network detected as: $HOST_NETWORK"
 
-# Set up remaining iptables rules
-iptables -A INPUT -s "$HOST_NETWORK" -j ACCEPT
+# Allow host network communication
 iptables -A OUTPUT -d "$HOST_NETWORK" -j ACCEPT
 
-# Set default policies to DROP (the DNS rules above will remain active)
-iptables -P INPUT DROP
-iptables -P FORWARD DROP
+# Only set OUTPUT policy to DROP (leave INPUT/FORWARD alone to not break Docker)
 iptables -P OUTPUT DROP
 
-# Allow established connections for already approved traffic
-iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+# Allow established/related connections
 iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
-# Allow only specific outbound traffic to allowed domains
+# Allow traffic to allowed domains
 iptables -A OUTPUT -m set --match-set allowed-domains dst -j ACCEPT
 
 echo "Firewall configuration complete"
