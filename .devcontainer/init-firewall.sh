@@ -2,6 +2,20 @@
 set -euo pipefail  # Exit on error, undefined vars, and pipeline failures
 IFS=$'\n\t'       # Stricter word splitting
 
+# Load environment variables from .env file if it exists
+ENV_FILE="/workspace/.devcontainer/.env"
+if [ -f "$ENV_FILE" ]; then
+    echo "Loading configuration from $ENV_FILE"
+    set -a  # automatically export all variables
+    source "$ENV_FILE"
+    set +a
+else
+    echo "No .env file found at $ENV_FILE, using default domains"
+    # Default domains if no .env file exists
+    ALLOWED_DOMAINS="registry.npmjs.org api.anthropic.com sentry.io statsig.anthropic.com statsig.com"
+    CUSTOM_DOMAINS=""
+fi
+
 # Flush existing rules and delete existing ipsets
 iptables -F
 iptables -X
@@ -42,32 +56,51 @@ fi
 
 echo "Processing GitHub IPs..."
 while read -r cidr; do
+    # Skip IPv6 ranges since our ipset only handles IPv4
+    if [[ "$cidr" =~ : ]]; then
+        echo "Skipping IPv6 range: $cidr"
+        continue
+    fi
     if [[ ! "$cidr" =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/[0-9]{1,2}$ ]]; then
         echo "ERROR: Invalid CIDR range from GitHub meta: $cidr"
         exit 1
     fi
     echo "Adding GitHub range $cidr"
     ipset add allowed-domains "$cidr"
-done < <(echo "$gh_ranges" | jq -r '(.web + .api + .git)[]' | aggregate -q)
+done < <(echo "$gh_ranges" | jq -r '(.web + .api + .git)[]' | sort -u)
 
-# Resolve and add other allowed domains
-for domain in \
-    "registry.npmjs.org" \
-    "api.anthropic.com" \
-    "sentry.io" \
-    "statsig.anthropic.com" \
-    "statsig.com"; do
+# Resolve and add allowed domains from environment variables
+# Combine ALLOWED_DOMAINS and CUSTOM_DOMAINS
+ALL_DOMAINS="$ALLOWED_DOMAINS"
+if [ -n "$CUSTOM_DOMAINS" ]; then
+    ALL_DOMAINS="$ALL_DOMAINS $CUSTOM_DOMAINS"
+fi
+
+# Convert space-separated domains to array for proper iteration
+# Use eval to properly expand the domain list
+eval "DOMAIN_LIST=($ALL_DOMAINS)"
+for domain in "${DOMAIN_LIST[@]}"; do
     echo "Resolving $domain..."
-    ips=$(dig +short A "$domain")
+    # Try multiple times with different nameservers
+    ips=""
+    for attempt in 1 2 3; do
+        ips=$(dig +short A "$domain" 2>/dev/null || true)
+        if [ -n "$ips" ]; then
+            break
+        fi
+        echo "Attempt $attempt failed for $domain, retrying..."
+        sleep 1
+    done
+    
     if [ -z "$ips" ]; then
-        echo "ERROR: Failed to resolve $domain"
-        exit 1
+        echo "WARNING: Failed to resolve $domain after 3 attempts, skipping..."
+        continue
     fi
     
     while read -r ip; do
         if [[ ! "$ip" =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
-            echo "ERROR: Invalid IP from DNS for $domain: $ip"
-            exit 1
+            echo "WARNING: Invalid IP from DNS for $domain: $ip, skipping..."
+            continue
         fi
         echo "Adding $ip for $domain"
         ipset add allowed-domains "$ip"
