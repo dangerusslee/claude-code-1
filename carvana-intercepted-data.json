@@ -1,0 +1,1228 @@
+{
+  "timestamp": "2025-07-28T14:56:08.155Z",
+  "searchUrl": "https://www.carvana.com/cars/toyota-camry?price=30000",
+  "searchOptions": {
+    "make": "Toyota",
+    "model": "Camry",
+    "maxPrice": 30000
+  },
+  "pageVehicles": [
+    {
+      "id": "3703168",
+      "url": "https://www.carvana.com/vehicle/3703168?refSource=srp",
+      "year": "2017",
+      "price": "$17,590",
+      "miles": "89",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "2017 Toyota Camry  SE  • 89k miles $17,590 Estimated $352/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3750579",
+      "url": "https://www.carvana.com/vehicle/3750579?refSource=srp",
+      "year": "2019",
+      "price": "$21,990",
+      "miles": "56",
+      "make": "Toyota",
+      "model": "Camry\n\nLE",
+      "fullText": "Recently Added  2019 Toyota Camry  LE  • 56k miles $21,990 Estimated $440/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3740801",
+      "url": "https://www.carvana.com/vehicle/3740801?refSource=srp",
+      "year": "2012",
+      "price": "$15,590",
+      "miles": "91",
+      "make": "Toyota",
+      "model": "Camry\n\nLE",
+      "fullText": "2012 Toyota Camry  LE  • 91k miles $15,590 Estimated $312/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3696129",
+      "url": "https://www.carvana.com/vehicle/3696129?refSource=srp",
+      "year": "2015",
+      "price": "$18,990",
+      "miles": "77",
+      "make": "Toyota",
+      "model": "Camry\n\nXSE",
+      "fullText": "2015 Toyota Camry  XSE  • 77k miles $18,990 Estimated $380/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3741711",
+      "url": "https://www.carvana.com/vehicle/3741711?refSource=srp",
+      "year": "2018",
+      "price": "$19,990",
+      "miles": "82",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "2018 Toyota Camry  SE  • 82k miles $19,990 Estimated $400/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3736608",
+      "url": "https://www.carvana.com/vehicle/3736608?refSource=srp",
+      "year": "2023",
+      "price": "$29,990",
+      "miles": "11",
+      "make": "Toyota",
+      "model": "Camry\n\nSE Nightshade Edition",
+      "fullText": "2023 Toyota Camry  SE Nightshade Edition  • 11k miles $29,990 Estimated $600/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3715905",
+      "url": "https://www.carvana.com/vehicle/3715905?refSource=srp",
+      "year": "2019",
+      "price": "$21,590",
+      "miles": "68",
+      "make": "Toyota",
+      "model": "Camry\n\nLE",
+      "fullText": "2019 Toyota Camry  LE  • 68k miles $21,590 Estimated $432/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3735982",
+      "url": "https://www.carvana.com/vehicle/3735982?refSource=srp",
+      "year": "2016",
+      "price": "$19,990",
+      "miles": "52",
+      "make": "Toyota",
+      "model": "Camry\n\nXSE",
+      "fullText": "2016 Toyota Camry  XSE  • 52k miles $19,990 Estimated $400/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3764786",
+      "url": "https://www.carvana.com/vehicle/3764786?refSource=srp",
+      "year": "2024",
+      "price": "$26,168",
+      "miles": "35",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "2024 Toyota Camry  SE  • 35k miles $26,168 Estimated $523/mo $0 cash down $790 shipping Get it Sunday, August 3rd"
+    },
+    {
+      "id": "3698661",
+      "url": "https://www.carvana.com/vehicle/3698661?refSource=srp",
+      "year": "2018",
+      "price": "$21,990",
+      "miles": "70",
+      "make": "Toyota",
+      "model": "Camry Hybrid\n\nLE",
+      "fullText": "Price Drop  2018 Toyota Camry Hybrid  LE  • 70k miles $21,990 was $22,590 Estimated $440/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3725373",
+      "url": "https://www.carvana.com/vehicle/3725373?refSource=srp",
+      "year": "2015",
+      "price": "$17,590",
+      "miles": "104",
+      "make": "Toyota",
+      "model": "Camry\n\nXSE",
+      "fullText": "VIEW THIS VEHICLE Price Drop  2015 Toyota Camry  XSE  • 104k miles $17,590 was $17,990 Estimated $404/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3696881",
+      "url": "https://www.carvana.com/vehicle/3696881?refSource=srp",
+      "year": "2021",
+      "price": "$24,990",
+      "miles": "15",
+      "make": "Toyota",
+      "model": "Camry\n\nLE",
+      "fullText": "2021 Toyota Camry  LE  • 15k miles $24,990 Estimated $500/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3752528",
+      "url": "https://www.carvana.com/vehicle/3752528?refSource=srp",
+      "year": "2017",
+      "price": "$19,990",
+      "miles": "69",
+      "make": "Toyota",
+      "model": "Camry\n\nXLE",
+      "fullText": "VIEW THIS VEHICLE  2017 Toyota Camry  XLE  • 69k miles $19,990 Estimated $400/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3716904",
+      "url": "https://www.carvana.com/vehicle/3716904?refSource=srp",
+      "year": "2018",
+      "price": "$19,590",
+      "miles": "103",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "VIEW THIS VEHICLE  2018 Toyota Camry  SE  • 103k miles $19,590 Estimated $450/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3758809",
+      "url": "https://www.carvana.com/vehicle/3758809?refSource=srp",
+      "year": "2024",
+      "price": "$29,990",
+      "miles": "16",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "2024 Toyota Camry  SE  • 16k miles $29,990 Estimated $600/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3691496",
+      "url": "https://www.carvana.com/vehicle/3691496?refSource=srp",
+      "year": "2024",
+      "price": "$34,990",
+      "miles": "7",
+      "make": "Toyota",
+      "model": "Camry\n\nXLE",
+      "fullText": "2024 Toyota Camry  XLE  • 7k miles $34,990 Estimated $700/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3734996",
+      "url": "https://www.carvana.com/vehicle/3734996?refSource=srp",
+      "year": "2022",
+      "price": "$21,990",
+      "miles": "52",
+      "make": "Toyota",
+      "model": "Camry\n\nLE",
+      "fullText": "Price Drop  2022 Toyota Camry  LE  • 52k miles $21,990 was $22,590 Estimated $440/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3778246",
+      "url": "https://www.carvana.com/vehicle/3778246?refSource=srp",
+      "year": "2018",
+      "price": "$23,990",
+      "miles": "26",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "2018 Toyota Camry  SE  • 26k miles $23,990 Estimated $480/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3761932",
+      "url": "https://www.carvana.com/vehicle/3761932?refSource=srp",
+      "year": "2020",
+      "price": "$21,590",
+      "miles": "89",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "VIEW THIS VEHICLE  2020 Toyota Camry  SE  • 89k miles $21,590 Estimated $432/mo $0 cash down Free Shipping Get it Wednesday"
+    },
+    {
+      "id": "3698217",
+      "url": "https://www.carvana.com/vehicle/3698217?refSource=srp",
+      "year": "2023",
+      "price": "$28,990",
+      "miles": "22",
+      "make": "Toyota",
+      "model": "Camry\n\nSE",
+      "fullText": "2023 Toyota Camry  SE  • 22k miles $28,990 Estimated $580/mo $0 cash down $690 shipping Get it Wednesday"
+    },
+    {
+      "id": "3739931",
+      "url": "https://www.carvana.com/vehicle/3739931?refSource=srp",
+      "year": "2017",
+      "price": "$22,590",
+      "miles": "37",
+      "make": "Toyota",
+      "model": "Camry Hybrid\n\nXLE",
+      "fullText": "Price Drop  2017 Toyota Camry Hybrid  XLE  • 37k miles $22,590 was $22,990 Estimated $452/mo $0 cash down $690 shipping Get it Wednesday"
+    }
+  ],
+  "apiData": {
+    "searchResults": null,
+    "pricingData": {
+      "vehiclePaymentTermsMapping": {
+        "3691496": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 700,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 32420,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 2799.2,
+          "msrp": 32570,
+          "offering": "Used",
+          "incentivizedPrice": 34990,
+          "marketAdjustment": 2420
+        },
+        "3696129": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 380,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 14720,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1519.2,
+          "msrp": 26150,
+          "offering": "Used",
+          "incentivizedPrice": 18990,
+          "marketAdjustment": -7160
+        },
+        "3696881": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 500,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 23826,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1999.2,
+          "msrp": 26040,
+          "offering": "Used",
+          "incentivizedPrice": 24990,
+          "marketAdjustment": -1050
+        },
+        "3698217": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 580,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 28155,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 2319.2,
+          "msrp": 29260,
+          "offering": "Used",
+          "incentivizedPrice": 28990,
+          "marketAdjustment": -270
+        },
+        "3698661": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 440,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 19969,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1759.2,
+          "msrp": 27950,
+          "offering": "Used",
+          "incentivizedPrice": 21990,
+          "marketAdjustment": -5960
+        },
+        "3703168": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 352,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 13758,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1407.2,
+          "msrp": 23840,
+          "offering": "Used",
+          "incentivizedPrice": 17590,
+          "marketAdjustment": -6250
+        },
+        "3715905": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 432,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 17828,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1727.2,
+          "msrp": 25555,
+          "offering": "Used",
+          "incentivizedPrice": 21590,
+          "marketAdjustment": -3965
+        },
+        "3716904": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 450,
+          "termInMonths": 60,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 15656,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1567.2,
+          "msrp": 25350,
+          "offering": "Used",
+          "incentivizedPrice": 19590,
+          "marketAdjustment": -5760
+        },
+        "3725373": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 404,
+          "termInMonths": 60,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 13526,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1407.2,
+          "msrp": 31370,
+          "offering": "Used",
+          "incentivizedPrice": 17590,
+          "marketAdjustment": -13780
+        },
+        "3734996": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 440,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 21699,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1759.2,
+          "msrp": 25845,
+          "offering": "Used",
+          "incentivizedPrice": 21990,
+          "marketAdjustment": -3855
+        },
+        "3735982": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 400,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 16164,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1599.2,
+          "msrp": 26310,
+          "offering": "Used",
+          "incentivizedPrice": 19990,
+          "marketAdjustment": -6320
+        },
+        "3736608": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 600,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 28802,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 2399.2,
+          "msrp": 29955,
+          "offering": "Used",
+          "incentivizedPrice": 29990,
+          "marketAdjustment": 35
+        },
+        "3739931": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 452,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 20415,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1807.2,
+          "msrp": 30140,
+          "offering": "Used",
+          "incentivizedPrice": 22590,
+          "marketAdjustment": -7550
+        },
+        "3740801": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 312,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 10164,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1247.2,
+          "msrp": 22600,
+          "offering": "Used",
+          "incentivizedPrice": 15590,
+          "marketAdjustment": -7010
+        },
+        "3741711": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 400,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 17108,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1599.2,
+          "msrp": 25350,
+          "offering": "Used",
+          "incentivizedPrice": 19990,
+          "marketAdjustment": -5360
+        },
+        "3750579": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 440,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 18909,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1759.2,
+          "msrp": 24450,
+          "offering": "Used",
+          "incentivizedPrice": 21990,
+          "marketAdjustment": -2460
+        },
+        "3752528": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 400,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 16642,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1599.2,
+          "msrp": 26310,
+          "offering": "Used",
+          "incentivizedPrice": 19990,
+          "marketAdjustment": -6320
+        },
+        "3758809": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 600,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 28342,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 2399.2,
+          "msrp": 29360,
+          "offering": "Used",
+          "incentivizedPrice": 29990,
+          "marketAdjustment": 630
+        },
+        "3761932": {
+          "downPayment": 0,
+          "apr": 0.0995,
+          "monthlyPayment": 432,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 0,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 0,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 18486,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1727.2,
+          "msrp": 26170,
+          "offering": "Used",
+          "incentivizedPrice": 21590,
+          "marketAdjustment": -4580
+        },
+        "3764786": {
+          "downPayment": 790,
+          "apr": 0.0995,
+          "monthlyPayment": 523,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 790,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 790,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 26272,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 2093.44,
+          "msrp": 27960,
+          "offering": "Used",
+          "incentivizedPrice": 26168,
+          "marketAdjustment": -1792
+        },
+        "3778246": {
+          "downPayment": 690,
+          "apr": 0.0995,
+          "monthlyPayment": 480,
+          "termInMonths": 72,
+          "downPaymentDetails": {
+            "totalCashDue": 690,
+            "additionalCashDown": 0,
+            "nonRefundableShippingFees": 690,
+            "tradeDown": 0
+          },
+          "totalFees": 0,
+          "totalTaxes": 0,
+          "kbbValue": 21154,
+          "feesMinusShipping": 0,
+          "estimatedTaxesAndFees": 1919.2,
+          "msrp": 25350,
+          "offering": "Used",
+          "incentivizedPrice": 23990,
+          "marketAdjustment": -1360
+        }
+      },
+      "financeInfo": {
+        "financingType": "estimatedFinancing",
+        "maxMonthlyPayment": 2000,
+        "minDownPayment": 0,
+        "pricingHasErrored": false,
+        "isUsingTerms2": false,
+        "isUsingSampleTerms": true,
+        "terms2ErrorMessage": ""
+      }
+    },
+    "deliveryInfo": {
+      "isOutOfMarket": false,
+      "localLocationId": 56,
+      "deliveryInfoGroups": [
+        {
+          "earliestDaysToDelivery": 2,
+          "earliestHoursToDelivery": 45,
+          "locationIds": [
+            14,
+            31,
+            37,
+            47,
+            56,
+            69,
+            70,
+            71,
+            75,
+            89,
+            95,
+            97,
+            102,
+            104,
+            118,
+            327,
+            245,
+            143,
+            188,
+            284,
+            365,
+            241,
+            301,
+            288,
+            280,
+            267,
+            190,
+            364,
+            211,
+            427,
+            382,
+            206,
+            191,
+            168,
+            240,
+            319,
+            136,
+            213,
+            237,
+            378,
+            236,
+            328,
+            265,
+            154,
+            422,
+            363,
+            290,
+            324,
+            347,
+            474,
+            475
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 5,
+          "earliestHoursToDelivery": 121,
+          "locationIds": [
+            79,
+            84,
+            1,
+            13,
+            111,
+            117,
+            10,
+            44,
+            50,
+            62,
+            80,
+            82,
+            83,
+            94,
+            99,
+            110,
+            128,
+            158,
+            165,
+            142,
+            161,
+            246,
+            248,
+            186,
+            140,
+            334,
+            214,
+            199,
+            205,
+            287,
+            341,
+            220,
+            261,
+            423,
+            294,
+            418,
+            302,
+            184,
+            377,
+            282,
+            343,
+            465,
+            464,
+            181,
+            459,
+            476,
+            461,
+            170,
+            281,
+            285,
+            295
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 7,
+          "earliestHoursToDelivery": 169,
+          "locationIds": [
+            266
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 9,
+          "earliestHoursToDelivery": 217,
+          "locationIds": [
+            88,
+            91,
+            127,
+            131,
+            162,
+            371,
+            289,
+            460,
+            410,
+            463,
+            372,
+            321,
+            366,
+            473,
+            215
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 10,
+          "earliestHoursToDelivery": 241,
+          "locationIds": [
+            6,
+            27,
+            28,
+            66,
+            224,
+            232,
+            247,
+            173,
+            292,
+            223,
+            189,
+            354,
+            113,
+            429,
+            433,
+            462,
+            235,
+            381,
+            340,
+            466,
+            219,
+            286,
+            385,
+            405
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 12,
+          "earliestHoursToDelivery": 294,
+          "locationIds": [
+            30,
+            357,
+            239,
+            325,
+            380,
+            313
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 14,
+          "earliestHoursToDelivery": 337,
+          "locationIds": [
+            43,
+            52,
+            98,
+            100,
+            101,
+            109,
+            192,
+            356,
+            300,
+            335,
+            141,
+            350,
+            172,
+            369,
+            221,
+            373,
+            259,
+            478,
+            413
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 42,
+          "earliestHoursToDelivery": 1008,
+          "locationIds": [
+            54,
+            145,
+            312,
+            307,
+            397
+          ],
+          "deliveryFee": 0
+        }
+      ],
+      "pickupInfoGroups": [
+        {
+          "earliestDaysToDelivery": 0,
+          "earliestHoursToDelivery": 0,
+          "locationIds": [
+            14,
+            31,
+            37,
+            47,
+            56,
+            69,
+            70,
+            71,
+            75,
+            89,
+            95,
+            97,
+            102,
+            104,
+            118,
+            245,
+            188,
+            284,
+            365,
+            241,
+            301,
+            288,
+            280,
+            267,
+            190,
+            364,
+            211,
+            427,
+            382,
+            206,
+            191,
+            168,
+            240,
+            319,
+            136,
+            213,
+            237,
+            378,
+            236,
+            328,
+            265,
+            154,
+            422,
+            363,
+            290,
+            324,
+            347,
+            474,
+            475
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 1,
+          "earliestHoursToDelivery": 23,
+          "locationIds": [
+            80
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 2,
+          "earliestHoursToDelivery": 50,
+          "locationIds": [
+            13,
+            111,
+            117,
+            62,
+            82,
+            83,
+            127,
+            162,
+            161,
+            248,
+            186,
+            334,
+            327,
+            143,
+            287,
+            418,
+            302,
+            377,
+            476,
+            461,
+            215,
+            281
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 2,
+          "earliestHoursToDelivery": 54,
+          "locationIds": [
+            220
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 3,
+          "earliestHoursToDelivery": 72,
+          "locationIds": [
+            1,
+            44,
+            91,
+            128,
+            158,
+            199,
+            423,
+            184,
+            465
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 3,
+          "earliestHoursToDelivery": 73,
+          "locationIds": [
+            84,
+            10,
+            94,
+            99,
+            464,
+            181,
+            170,
+            295
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 4,
+          "earliestHoursToDelivery": 100,
+          "locationIds": [
+            79,
+            50,
+            88,
+            110,
+            131,
+            165,
+            142,
+            246,
+            140,
+            371,
+            214,
+            205,
+            289,
+            341,
+            261,
+            460,
+            294,
+            410,
+            282,
+            343,
+            372,
+            459,
+            366,
+            285
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 5,
+          "earliestHoursToDelivery": 122,
+          "locationIds": [
+            266
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 5,
+          "earliestHoursToDelivery": 125,
+          "locationIds": [
+            6,
+            247,
+            286,
+            385
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 8,
+          "earliestHoursToDelivery": 189,
+          "locationIds": [
+            27,
+            28,
+            66,
+            224,
+            232,
+            173,
+            292,
+            223,
+            239,
+            189,
+            354,
+            113,
+            429,
+            463,
+            433,
+            462,
+            313,
+            235,
+            321,
+            381,
+            466,
+            473,
+            219
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 8,
+          "earliestHoursToDelivery": 192,
+          "locationIds": [
+            30,
+            340,
+            405
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 9,
+          "earliestHoursToDelivery": 220,
+          "locationIds": [
+            43,
+            100,
+            109,
+            192,
+            356,
+            300,
+            335,
+            141,
+            172,
+            369,
+            221,
+            259,
+            478
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 10,
+          "earliestHoursToDelivery": 239,
+          "locationIds": [
+            357,
+            325,
+            380
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 11,
+          "earliestHoursToDelivery": 263,
+          "locationIds": [
+            52,
+            350,
+            373
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 12,
+          "earliestHoursToDelivery": 295,
+          "locationIds": [
+            98,
+            101,
+            413
+          ],
+          "deliveryFee": 0
+        },
+        {
+          "earliestDaysToDelivery": 42,
+          "earliestHoursToDelivery": 1008,
+          "locationIds": [
+            54,
+            145,
+            312,
+            307,
+            397
+          ],
+          "deliveryFee": 0
+        }
+      ],
+      "meetupInfoGroups": [],
+      "pickUpInfoToDisplay": {
+        "pickupLocation": {
+          "addressTypeId": 0,
+          "line1": "1043 N Front St",
+          "city": "Philadelphia",
+          "state": "PA",
+          "zip5": "19123",
+          "zip4": "1704"
+        },
+        "locationType": "VendingMachine",
+        "closestLocationWithSearchableVehicles": 80,
+        "milesToPickupLocation": 97,
+        "earliestPickupDate": "2025-07-28T14:15:00Z",
+        "earliestDaysToPickup": 0,
+        "earliestHoursToPickup": 0,
+        "fee": 0
+      },
+      "deliveryInfoToDisplay": {
+        "earliestDeliveryDate": "2025-07-30T12:22:00Z",
+        "earliestDaysToDelivery": 2,
+        "earliestHoursToDelivery": 45,
+        "fee": 0,
+        "locationId": 56
+      },
+      "isDeliveryAllowed": true,
+      "isPickupAllowed": true,
+      "isMeetupAllowed": false
+    },
+    "vehicleDetails": []
+  },
+  "totalVehiclesFound": 21
+}

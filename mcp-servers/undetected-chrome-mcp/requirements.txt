@@ -1,0 +1,6 @@
+# Python dependencies for undetected Chrome MCP server
+selenium>=4.9.0
+undetected-chromedriver>=3.5.0
+webdriver-manager>=4.0.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0

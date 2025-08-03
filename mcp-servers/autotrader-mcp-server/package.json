@@ -1,0 +1,53 @@
+{
+  "name": "autotrader-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for looking up inventory on AutoTrader.com",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "autotrader-mcp-server": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "dev": "node --inspect src/index.js",
+    "verify": "node verify-installation.js",
+    "postinstall": "node verify-installation.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.7.0",
+    "cheerio": "^1.0.0",
+    "zod": "^3.22.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.8"
+  },
+  "jest": {
+    "preset": "default",
+    "extensionsToTreatAsEsm": [".js"],
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "transform": {},
+    "moduleNameMapping": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    }
+  },
+  "keywords": [
+    "mcp",
+    "autotrader",
+    "inventory",
+    "vehicle",
+    "search"
+  ],
+  "author": "AutoTrader MCP Server",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/autotrader-mcp-server.git"
+  }
+}

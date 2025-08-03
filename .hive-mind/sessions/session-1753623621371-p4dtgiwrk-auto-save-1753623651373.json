@@ -1,0 +1,81 @@
+{
+  "sessionId": "session-1753623621371-p4dtgiwrk",
+  "checkpointId": "checkpoint-1753623651373-h3s2n7x8h",
+  "checkpointName": "auto-save-1753623651373",
+  "timestamp": "2025-07-27T13:40:51.373Z",
+  "data": {
+    "timestamp": "2025-07-27T13:40:51.373Z",
+    "changeCount": 5,
+    "changesByType": {
+      "swarm_created": [
+        {
+          "type": "swarm_created",
+          "data": {
+            "swarmId": "swarm-1753623621370-gkp6kyhus",
+            "swarmName": "hive-1753623621269",
+            "objective": "Find public APIs we can use to search car inventory/sales records",
+            "workerCount": 8
+          },
+          "timestamp": "2025-07-27T13:40:21.372Z"
+        }
+      ],
+      "agent_activity": [
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753623621370-gkp6kyhus-0",
+            "activity": "spawned",
+            "data": {
+              "type": "researcher",
+              "name": "Researcher Worker 1"
+            }
+          },
+          "timestamp": "2025-07-27T13:40:21.373Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753623621370-gkp6kyhus-1",
+            "activity": "spawned",
+            "data": {
+              "type": "coder",
+              "name": "Coder Worker 2"
+            }
+          },
+          "timestamp": "2025-07-27T13:40:21.374Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753623621370-gkp6kyhus-2",
+            "activity": "spawned",
+            "data": {
+              "type": "analyst",
+              "name": "Analyst Worker 3"
+            }
+          },
+          "timestamp": "2025-07-27T13:40:21.374Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753623621370-gkp6kyhus-3",
+            "activity": "spawned",
+            "data": {
+              "type": "tester",
+              "name": "Tester Worker 4"
+            }
+          },
+          "timestamp": "2025-07-27T13:40:21.374Z"
+        }
+      ]
+    },
+    "statistics": {
+      "tasksProcessed": 0,
+      "tasksCompleted": 0,
+      "memoryUpdates": 0,
+      "agentActivities": 4,
+      "consensusDecisions": 0
+    }
+  }
+}

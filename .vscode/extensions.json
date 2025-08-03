@@ -3,6 +3,11 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "ms-vscode-remote.remote-containers",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "ms-python.python",
+    "ms-python.pylint",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-python.mypy-type-checker"
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "name": "selenium-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Selenium web automation with stealth features",
+  "main": "src/index.js",
+  "bin": {
+    "selenium-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "mcp",
+    "selenium",
+    "web-automation",
+    "stealth"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "selenium-webdriver": "^4.0.0",
+    "undetected-chromedriver-js": "^1.0.0"
+  },
+  "preferGlobal": true
+}

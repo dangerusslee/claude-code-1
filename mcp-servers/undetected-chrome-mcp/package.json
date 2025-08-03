@@ -1,0 +1,38 @@
+{
+  "name": "undetected-chrome-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for undetected Chrome web scraping with maximum stealth",
+  "main": "src/index.js",
+  "bin": {
+    "undetected-chrome-mcp": "./bin/undetected-chrome-mcp"
+  },
+  "scripts": {
+    "start": "python3 src/server.py",
+    "test": "python3 tests/test_server.py",
+    "install-deps": "pip3 install --break-system-packages -r requirements.txt"
+  },
+  "keywords": [
+    "mcp",
+    "selenium",
+    "undetected-chromedriver",
+    "web-scraping",
+    "stealth"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/claude-code"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8"
+  },
+  "os": [
+    "linux",
+    "darwin"
+  ],
+  "preferGlobal": true
+}

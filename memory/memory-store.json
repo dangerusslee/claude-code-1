@@ -1,0 +1,28 @@
+{
+  "default": [
+    {
+      "key": "hive/objective",
+      "value": "{\"task\": \"Create an MCP server for looking up inventory on autotrader.com\", \"initialized\": \"2025-07-26T22:05:57.399Z\", \"swarm_id\": \"swarm-1753567557287-6icup6j5l\"}",
+      "namespace": "default",
+      "timestamp": 1753567737353
+    },
+    {
+      "key": "hive/architecture",
+      "value": "{\"tools\": [\"search_inventory\", \"get_vehicle_details\", \"filter_by_criteria\", \"get_dealer_info\"], \"data_source\": \"web_scraping\", \"caching\": true}",
+      "namespace": "default",
+      "timestamp": 1753567739166
+    },
+    {
+      "key": "hive/queen",
+      "value": "{\"type\": \"strategic\", \"consensus\": \"majority\", \"workers\": 4}",
+      "namespace": "default",
+      "timestamp": 1753567740733
+    },
+    {
+      "key": "hive/progress",
+      "value": "{\"completed\": [\"project_structure\", \"core_server\", \"tools\", \"utilities\", \"tests\", \"documentation\"], \"status\": \"ready_for_testing\"}",
+      "namespace": "default",
+      "timestamp": 1753568006726
+    }
+  ]
+}

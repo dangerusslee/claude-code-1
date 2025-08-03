@@ -1,0 +1,81 @@
+{
+  "sessionId": "session-1753567557308-wv35senhv",
+  "checkpointId": "checkpoint-1753567587313-y2naug16s",
+  "checkpointName": "auto-save-1753567587313",
+  "timestamp": "2025-07-26T22:06:27.314Z",
+  "data": {
+    "timestamp": "2025-07-26T22:06:27.313Z",
+    "changeCount": 5,
+    "changesByType": {
+      "swarm_created": [
+        {
+          "type": "swarm_created",
+          "data": {
+            "swarmId": "swarm-1753567557287-6icup6j5l",
+            "swarmName": "hive-1753567557232",
+            "objective": "Create an mcp server for looking up inventory on autotrader.com",
+            "workerCount": 8
+          },
+          "timestamp": "2025-07-26T22:05:57.313Z"
+        }
+      ],
+      "agent_activity": [
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753567557287-6icup6j5l-0",
+            "activity": "spawned",
+            "data": {
+              "type": "researcher",
+              "name": "Researcher Worker 1"
+            }
+          },
+          "timestamp": "2025-07-26T22:05:57.344Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753567557287-6icup6j5l-1",
+            "activity": "spawned",
+            "data": {
+              "type": "coder",
+              "name": "Coder Worker 2"
+            }
+          },
+          "timestamp": "2025-07-26T22:05:57.362Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753567557287-6icup6j5l-2",
+            "activity": "spawned",
+            "data": {
+              "type": "analyst",
+              "name": "Analyst Worker 3"
+            }
+          },
+          "timestamp": "2025-07-26T22:05:57.370Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753567557287-6icup6j5l-3",
+            "activity": "spawned",
+            "data": {
+              "type": "tester",
+              "name": "Tester Worker 4"
+            }
+          },
+          "timestamp": "2025-07-26T22:05:57.378Z"
+        }
+      ]
+    },
+    "statistics": {
+      "tasksProcessed": 0,
+      "tasksCompleted": 0,
+      "memoryUpdates": 0,
+      "agentActivities": 4,
+      "consensusDecisions": 0
+    }
+  }
+}

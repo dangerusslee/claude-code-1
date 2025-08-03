@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "autotrader": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "cwd": "/projects/claude-code/autotrader-mcp-server",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

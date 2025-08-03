@@ -1,0 +1,39 @@
+{
+  "server": {
+    "name": "autotrader-inventory",
+    "version": "1.0.0",
+    "description": "MCP server for searching and retrieving vehicle inventory from AutoTrader.com"
+  },
+  "tools": [
+    {
+      "name": "search_inventory",
+      "description": "Search for vehicle inventory on AutoTrader by various criteria",
+      "category": "search"
+    },
+    {
+      "name": "get_vehicle_details",
+      "description": "Get detailed information about a specific vehicle listing",
+      "category": "details"
+    },
+    {
+      "name": "filter_by_criteria",
+      "description": "Filter a list of vehicles by various criteria",
+      "category": "filter"
+    },
+    {
+      "name": "get_dealer_info",
+      "description": "Get information about a specific dealer",
+      "category": "dealer"
+    }
+  ],
+  "cache": {
+    "enabled": true,
+    "ttlMinutes": 30,
+    "cleanupIntervalMinutes": 10
+  },
+  "scraper": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "timeout": 30000,
+    "retries": 3
+  }
+}

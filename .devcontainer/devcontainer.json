@@ -29,5 +29,17 @@
   },
   "remoteUser": "node",
   "workspaceFolder": "/projects",
-  "postCreateCommand": "sudo /usr/local/bin/init-firewall.sh"
+  // "postCreateCommand": "sudo /usr/local/bin/init-firewall.sh",
+  "containerEnv": {
+    "PLAYWRIGHT_BROWSERS_PATH": "/usr/local/share/playwright-browsers"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "username": "node",
+      "upgradePackages": true
+    }
+  }
 }
