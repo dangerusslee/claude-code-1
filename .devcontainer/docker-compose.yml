@@ -18,10 +18,32 @@ services:
       - NET_ADMIN
       - NET_RAW
     volumes:
-      - claude-code-bashhistory:/commandhistory
-      - claude-code-config:/home/node/.claude
+      - type: volume
+        source: claude-code-persistent
+        target: /commandhistory
+        volume:
+          subpath: commandhistory
+      - type: volume
+        source: claude-code-persistent
+        target: /home/node/.config
+        volume:
+          subpath: .config
+      - type: volume
+        source: claude-code-persistent
+        target: /home/node/.claude
+        volume:
+          subpath: .claude
+      - type: volume
+        source: claude-code-persistent
+        target: /home/node/.local
+        volume:
+          subpath: .local
+      # - claude-code-persistent:/persistent
+      # - claude-code-bashhistory:/commandhistory
+      # - claude-code-config:/home/node/.claude
       - ${HOME}/Projects:/projects:cached
       - /var/run/docker.sock:/var/run/docker.sock:rw
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
     environment:
       - NODE_OPTIONS=--max-old-space-size=4096
       - CLAUDE_CONFIG_DIR=/home/node/.claude
@@ -32,10 +54,18 @@ services:
       - GITLAB_API_URL=${GITLAB_API_URL:-https://gitlab.com/api/v4}
       - GITLAB_READ_ONLY_MODE=${GITLAB_READ_ONLY_MODE:-false}
       - PLAYWRIGHT_BROWSERS_PATH=/usr/local/share/playwright-browsers
+      - DISPLAY=host.docker.internal:0
     command: sleep infinity
     stdin_open: true
     tty: true
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 2G
 
 volumes:
-  claude-code-bashhistory:
-  claude-code-config:
+  claude-code-persistent:
+  # claude-code-config:
+  # claude-code-bashhistory:

@@ -29,7 +29,10 @@
   },
   "remoteUser": "node",
   "workspaceFolder": "/projects",
-  // "postCreateCommand": "sudo /usr/local/bin/init-firewall.sh",
+  "postCreateCommand": [
+    // "bash", "-c",
+    // "/projects/claude-code/.devcontainer/migrate-data.sh && mkdir -p /persistent/{.config,.cache/pip,.vscode-server,.oh-my-zsh,.claude} && ln -sf /persistent/.config /home/node/.config && ln -sf /persistent/.cache/pip /home/node/.cache/pip && ln -sf /persistent/.vscode-server /home/node/.vscode-server && ln -sf /persistent/.oh-my-zsh /home/node/.oh-my-zsh && ln -sf /persistent/.claude /home/node/.claude && ln -sf /persistent/.zsh_history /home/node/.zsh_history && sudo /usr/local/bin/init-firewall.sh"
+  ],
   "containerEnv": {
     "PLAYWRIGHT_BROWSERS_PATH": "/usr/local/share/playwright-browsers"
   },
